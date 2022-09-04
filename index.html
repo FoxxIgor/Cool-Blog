@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title> Cool Blog </title>
+        <link rel="stylesheet" href="style.css"> 
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    </head>
+    <body>
+        <nav class="navbar-inverse myNavbar">
+            <div class="navbar-header"> 
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+    
+            </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+
+                            <li><a href="#Places"> Places </a></li>
+                            <li><a href="#Films"> Films </a></li> <!-- alteração -->
+                            <li><a href="#Games"> Games </a></li>
+                            <li><a href="#About"> About me </a></li>
+    
+                        </ul>
+                </div>
+            
+        </nav>
+
+        <div class="container">
+            <h2 class="page-header" id="Places"> Places That I Want To Go</h2> <!-- essa classe da a o elemento H2 padding e margin para ficar alinhado a borda inferior -->
+            <div class="viagem_mainDiv">
+                <center>
+                    <h3 class="text-capitalize"><kbd> Canada</kbd></h3> <!-- A classe deixa tudo maiusculo e a tag kbd estiliza-->
+                    <div id="grid"> <!-- grid e quando  a gente quer fazer algo com colunas e linhas-->
+                        <div><img class="viagem_img"src="canada.jpg"></div>
+                        <br>
+                                    <!--<h4 class="text-success text-capitalize"> Canada </h4>-->
+                        <p class="text-muted"><!-- text-sucesss faz com que o texto fique verde, e o text-muted deixa cinza claro-->
+                            Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, covering over 9.98 million square kilometres, making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres, is the world's longest binational land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.
+                        </p> 
+                        <h3 class="text-capitalize"><kbd> Russia</kbd></h3>
+                        <div><img class="viagem_img"src="russia.jpg"></div>
+                    </div>
+                    <br>
+                
+                    <p class="text-muted"><!-- text-sucesss faz com que o texto fique verde, e o text-muted deixa cinza claro-->
+                        Russia, or the Russian Federation, is a transcontinental country spanning Eastern Europe and Northern Asia. It is the largest country in the world by area, covering over 17,098,246 square kilometres, and encompassing one-eighth of Earth's inhabitable landmass. Russia extends across eleven time zones and borders sixteen sovereign nations, more than any other country in the world. It is the ninth-most populous country in the world and the most populous country in Europe, with a population of 145.5 million. The country's capital and largest city is Moscow, the largest city entirely within Europe. Saint Petersburg is Russia's cultural centre and second-largest city. Other major urban areas include Novosibirsk, Yekaterinburg, Nizhny Novgorod and Kazan.
+                    </p> 
+                    <br>
+                </center>
+                
+                
+
+            </div>
+
+            <br>
+
+            <h2 class="page-header" id="Films"> Films</h2>
+            <div class="bg-primary filmshead" data-toggle="collapse" data-target="#Film1"><!-- bg-primary ele deixa a cor do texto branca e a cor de fundo azul -->
+                <span class="glyphicon glyphicon-film"> </span>  Mother Nature
+                <i class="fa fa-sort-desc"></i> <!-- faz uma seta clicavel -->
+                
+            </div> 
+            <div id="Film1" class="collapse">
+                <div class="filmtext">
+                    <img src="Mae.jpg" class="img-responsive img-thumbnail"> <!--deixa a imagem responsiva-->
+                    <h5 class="text-capitalize text-success"> 
+                        That serie is amazing, i really like it, it have unic animals.
+                    </h5>
+                    <span class="glyphicon glyphicon-star" ></span>
+                    <span class="glyphicon glyphicon-star" ></span>
+                    <span class="glyphicon glyphicon-star" ></span>
+                    <span class="glyphicon glyphicon-star" ></span>
+                </div>
+            </div>
+            <br>
+            <div class="bg-primary filmshead" data-toggle="collapse" data-target="#Film2"><!-- bg-primary ele deixa a cor do texto branca e a cor de fundo azul -->
+                <span class="glyphicon glyphicon-film"> </span>  BFDI
+                <i class="fa fa-sort-desc"></i> <!-- faz uma seta clicavel -->
+                
+            </div> 
+            <div id="Film2" class="collapse">
+
+                <div class="filmtext">
+                    <img src="AGAIN.jpg" class="img-responsive img-thumbnail"> <!--deixa a imagem responsiva-->
+                    <h5 class="text-capitalize text-success"> 
+                        Cool, serie 5 starts
+                    </h5>
+                    <span class="glyphicon glyphicon-star" ></span>
+                    <span class="glyphicon glyphicon-star" ></span>
+                    <span class="glyphicon glyphicon-star" ></span>
+                    <span class="glyphicon glyphicon-star" ></span>
+                    <span class="glyphicon glyphicon-star" ></span>
+                </div>
+            </div>
+            <br>
+            <div id="Games">
+                <h2 class="page-header"> Games </h2>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href=""></a>
+                    <img src="JOGO2.jpg" class="img-responsive">
+                    
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src="download (3).jpg" class="img-responsive">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="contato">
+                
+                <img src="CHANNEL.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <H3 class="text-success"> FoxxIgor </H3>
+                <br>
+                <div  class="contato_1">
+                    <h4> Im Foxxigor, i like roblox and minecraft, also i love programming in: HTML, CSS, JS and LUA. Also, i am an dev of roblox.</h4>
+                </div>
+                    
+                
+                
+            </div>
+
+            
+        </div>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background: url(https://assistentedeviagem.com.br/blog/wp-content/uploads/2021/04/canada-natureza-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    background-color: azure;
+}
+
+.viagem_img{
+    width: 50%;
+}
+
+.img-thumbnail{
+    width: 40%;
+}
+
+.viagem_mainDiv{
+    border: 1px solid rgb(73, 255, 164);
+}
+
+.viagem_mainDiv p{
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;;
+}
+
+.navbar-inverse{
+    position:sticky;
+    top:0;
+    z-index: 9999;
+}
+
+.filmshead{
+    background-color: rgb(0, 0, 116);
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.filmshead i{
+    float: right;
+}
+
